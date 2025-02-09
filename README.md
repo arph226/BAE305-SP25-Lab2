@@ -30,26 +30,14 @@ Through this lab, we gained hands-on experience with circuit construction, solde
 ## Assembly Procedures  
 
 ### Part 1: Series Circuit  
-1. Using the Fluke DMM, we measured the actual resistance of the 1kΩ, 2.2 kΩ, and 5.1 kΩ resistors by attaching each lead to one side of the resistors via alligator clips. The labeled resistance was verified using the resistor color code.  
-2. Constructed the series circuit on a soldering breadboard.  
-3. Used the soldering iron to apply solder, establishing connections between resistors and the copper pad on the underside of the board. Two wires were soldered for connection to the DC Power Supply.  
-4. Connected the DCPS leads to the two wires and set the voltage to 10V.  
-5. Measured the voltage drop across each resistor using the Fluke DMM, clipping each lead to each end of the resistor with alligator clips.  
-6. Measured the current by interrupting the circuit with the Fluke DMM.  
+Using the Fluke digital multimeter, we measured the actual resistance of the 1kΩ, 2.2 kΩ, and 5.1 kΩ resistors by attaching the multimeter leads to their terminals with alligator clips. The labeled resistance was verified using the resistor color code. After confirming the resistor values, we proceeded to construct the circuit on a soldering breadboard. We used a soldering iron to apply solder and establish connections between the resistors and the copper pad on the underside of the board. Two wires were soldered to the circuit to allow for connection to the DC power supply. Once the circuit was completed, we connected the DCPS leads to the two wires and set the voltage to 10V. Using the Fluke digital multimeter, we measured the voltage drop across each resistor by clipping the leads to each end of the resistor with alligator clips. Finally, we measured the current by interrupting the circuit with the Fluke digital multimeter to confirm the validity of Kirchhoff’s Voltage Law and Kirchhoff’s Current Law.  
 
 ### Part 2: Parallel Circuit  
-1. Measured the actual resistance of the 4.7 kΩ, 6.8 kΩ, 15 kΩ, and 220 kΩ resistors using the Fluke DMM and verified values via the resistor color code.  
-2. Measured the voltage output of the DCPS by connecting the power supply leads to the Fluke DMM, ensuring it was within 0.1V of the stated voltage.  
-3. Assembled the parallel circuit on a standard breadboard.  
-4. Measured the current at each designated point by interrupting the circuit with the Fluke DMM.  
+Using the Fluke digital multimeter, we measured the actual resistance of the 4.7 kΩ, 6.8 kΩ, 15 kΩ, and 220 kΩ resistors following the same method used in Part 1. Next, we measured the voltage output of the DC power supply by connecting the power supply leads to the Fluke digital multimeter to ensure that the output voltage was within 0.1V of the stated value. We then constructed the parallel circuit on a standard prototyping breadboard and measured the current at various points in the circuit by interrupting the circuit and using the Fluke digital multimeter to record the current at each designated measurement location. These measurements were used to verify Kirchhoff’s Current Law.  
 
 ### Part 3: Thevenin Equivalent  
-1. Measured the voltage drop across each resistor using the Fluke DMM.  
-2. To investigate Thevenin’s theorem, removed **R₅** so that **I₅** would only flow through **R₄** rather than splitting between **R₄** and **R₅**.  
-3. Measured the voltage drop across **R₄** after modifying the circuit.  
-4. Changed the Fluke DMM to current measuring mode and connected it to the terminals of **R₄**, allowing the measurement of **Iₙ** (short-circuit current).  
-5. Removed the DCPS leads and replaced them with a wire joining the disconnected end of **R₁** with the disconnected ends of **R₃** or **R₄**.  
-6. Used the Fluke DMM as an ohmmeter to measure the equivalent resistance (**Rₜₕ**) for the entire passive circuit.  
+Using the Fluke digital multimeter, we measured the voltage drop across each resistor. To investigate Thevenin’s theorem, we removed R₅ so that I₅ would flow only through R₄ and not be split between R₄ and R₅. After modifying the circuit, we measured the voltage drop across R₄. Next, we changed the Fluke digital multimeter to current measuring mode and connected it to the terminals of R₄ to measure Iₙ by creating a short circuit. Finally, we removed the DC power supply leads from the circuit and replaced them with a single wire connecting the disconnected end of R₁ with the disconnected ends of R₃ or R₄. Using the Fluke digital multimeter as an ohmmeter, we measured the equivalent resistance Rₜₕ for the entire passive circuit, allowing us to compare our experimental results with theoretical calculations.  
+
 
 
 # Test Equipment
