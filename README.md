@@ -1,9 +1,9 @@
 # BAE305-SP25-Lab2
 # Laboratory Report for Lab 2 of BAE305 Spring 2025
-# Lab 2 – Well Equipped: Knowing Your Instruments
+# Lab 2 - For Good Measure: Basic Circuits
 * By: Abby Phillips and Audrey Suit
 * Submitted: February 10th, 2025
-# Lab 2 - For Good Measure: Basic Circuits
+
 
 ## Summary  
 The objective of this lab was to analyze basic electrical circuits by applying fundamental circuit laws and theorems, including Kirchhoff’s Voltage Law (KVL), Kirchhoff’s Current Law (KCL), Thevenin’s theorem, and the superposition theorem. The lab involved constructing and analyzing both series and parallel circuits to verify theoretical predictions through experimental measurements.  
