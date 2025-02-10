@@ -132,14 +132,17 @@ The results obtained for step 3 of the Test Procedures are shown in the table be
 |----------|----------|----------|
 |V(TH)|9.56V||
 |I(N)|2.54 mA|5|
-|R(TH)/R(N)|3.774k(&Omega;)||
+|R(TH)/R(N)|3.774k&Omega;||
 
 # Discussion
 Discussion Question 1: Are the measured currents in agreement with Kirchhoff’s Current Law?
 Yes! I1=I2/3+I4+I5
+
 Discussion Question 2: Compare the measured values and the calculated values. Are these in agreement with Kirchhoff’s Voltage Law?
 Yes
+
 Discussion Question 3: Calculate the power delivered by the power supply and the power dissipated by every resistor. Is the power delivered by the power supply equal to the total power dissipated?
+
 Discussion Question 4: Using circuit analysis, calculate RTH, IN, and VTH, and compare them with the measured values. Are the calculated values in agreement with the measured values?
 
 # Conclusion
