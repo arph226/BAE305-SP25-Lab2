@@ -31,17 +31,23 @@ Through this lab, we gained hands-on experience with circuit construction, solde
 
 ### Part 1: Series Circuit  
 Using the Fluke digital multimeter, we measured the actual resistance of the 1kΩ, 2.2 kΩ, and 5.1 kΩ resistors by attaching the multimeter leads to their terminals with alligator clips. The labeled resistance was verified using the resistor color code. After confirming the resistor values, we proceeded to construct the circuit below on a soldering breadboard. 
+
 <img width="161" alt="image" src="https://github.com/user-attachments/assets/60e2f5c5-65c9-48bb-9d8f-2e74f1aaa390" />
+
 We used a soldering iron to apply solder and establish connections between the resistors and the copper pad on the underside of the board. Two wires were soldered to the circuit to allow for connection to the DC power supply. Once the circuit was completed, we connected the DCPS leads to the two wires and set the voltage to 10V. Using the Fluke digital multimeter, we measured the voltage drop across each resistor by clipping the leads to each end of the resistor with alligator clips. Finally, we measured the current by interrupting the circuit with the Fluke digital multimeter to confirm the validity of Kirchhoff’s Voltage Law and Kirchhoff’s Current Law.  
 
 ### Part 2: Parallel Circuit  
 Using the Fluke digital multimeter, we measured the actual resistance of the 4.7 kΩ, 6.8 kΩ, 15 kΩ, and 220 kΩ resistors following the same method used in Part 1. Next, we measured the voltage output of the DC power supply by connecting the power supply leads to the Fluke digital multimeter to ensure that the output voltage was within 0.1V of the stated value. We then constructed the parallel circuit below on a standard prototyping breadboard.
+
 <img width="344" alt="image" src="https://github.com/user-attachments/assets/fa74c05e-a54f-407f-b128-c1ce234d6ff2" />
+
 We then measured the current at various points in the circuit by interrupting the circuit and using the Fluke digital multimeter to record the current at each designated measurement location. These measurements were used to verify Kirchhoff’s Current Law.  
 
 ### Part 3: Thevenin Equivalent  
 Using the Fluke digital multimeter, we measured the voltage drop across each resistor. To investigate Thevenin’s theorem, we removed R₅ so that I₅ would flow only through R₄ and not be split between R₄ and R₅. This setup is shown below.
+
 <img width="259" alt="image" src="https://github.com/user-attachments/assets/01410e4d-1c44-4665-9d83-fcd639a78596" />
+
 After modifying the circuit, we measured the voltage drop across R₄. Next, we changed the Fluke digital multimeter to current measuring mode and connected it to the terminals of R₄ to measure Iₙ by creating a short circuit. Finally, we removed the DC power supply leads from the circuit and replaced them with a single wire connecting the disconnected end of R₁ with the disconnected ends of R₃ or R₄. Using the Fluke digital multimeter as an ohmmeter, we measured the equivalent resistance Rₜₕ for the entire passive circuit, allowing us to compare our experimental results with theoretical calculations.  
 
 
