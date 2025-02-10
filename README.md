@@ -101,6 +101,7 @@ The results obtained for step 2 of the Test Procedures are shown in the table be
 |R3|7.27|
 
 The results obtained for step 3 of the Test Procedures are shown in the table below. The set voltages were very close, if not exactly the same, as the measured voltages. Errors were likely due to DMM measurement since sometimes values would continue to change on the DMM after the probes were attached. This could lead to some measurement error.
+
 **Resistor Values Table: Parallel Circuit**
 |Resistor|Resistance (&Omega;)|
 |----------|----------|
