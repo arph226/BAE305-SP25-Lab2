@@ -10,7 +10,7 @@ The objective of this lab was to analyze basic electrical circuits by applying f
 
 To begin, we practiced soldering techniques by assembling a simple series circuit on a solder protoboard. We then measured voltage drops and currents within the circuit using a digital multimeter (DMM) to confirm compliance with KVL and KCL. Next, we built a parallel circuit on a prototyping breadboard and measured its electrical parameters to further validate KCL. Finally, we explored Thevenin’s and Norton’s theorems by simplifying a complex circuit into its equivalent form and comparing calculated values with experimental measurements.  
 
-Through this lab, we gained hands-on experience with circuit construction, soldering, and measurement techniques. Our results demonstrated strong agreement with theoretical expectations, reinforcing our understanding of fundamental circuit analysis principles.  
+Through this lab, we gained hands-on experience with circuit construction, soldering, and measurement techniques. Our results demonstrated strong agreement with theoretical expectations, reinforcing our understanding of fundamental circuit analysis principles. We found the data from our circuits agreed with KCL and our power delivered by the power supply was equal to the total power dissapated. However, our circuit did not agree with KVL 
 
 ## Materials  
 - Digital Multimeter (Fluke DMM)  
