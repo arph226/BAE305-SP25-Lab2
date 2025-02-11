@@ -142,7 +142,7 @@ The results obtained for step 3 of the Test Procedures are shown in the table be
 ||Measured Magnitude|Calculated Voltages|
 |----------|----------|----------|
 |V(TH)|9.56V|7.53V|
-|I(N)|2.54 mA|5|
+|I(N)|2.54 mA|1.92 mA|
 |R(TH)/R(N)|3.774k&Omega;|3.92k&Omega;|
 
 # Discussion
