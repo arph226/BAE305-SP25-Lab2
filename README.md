@@ -153,7 +153,15 @@ Discussion Question 2: Compare the measured values and the calculated values. Ar
 Yes
 
 Discussion Question 3: Calculate the power delivered by the power supply and the power dissipated by every resistor. Is the power delivered by the power supply equal to the total power dissipated?
+
 The power delivered can be calculated by the equation P=V^2/Req, or P=144V/3774&Omega;= 0.03816. The power dissipated by each resistor is calculated by P=IV using above voltage and current measurements.
+| **Resistor** | **Power Dissipated (W)** |
+|-------------|------------------------|
+| R1          | 0.015102 W             |
+| R2          | 0.00018598 W           |
+| R3          | 0.00040443 W           |
+| R4          | 0.00010422 W           |
+
 Discussion Question 4: Using circuit analysis, calculate RTH, IN, and VTH, and compare them with the measured values. Are the calculated values in agreement with the measured values?
 
 # Conclusion
