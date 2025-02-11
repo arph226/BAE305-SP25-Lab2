@@ -147,10 +147,11 @@ The results obtained for step 3 of the Test Procedures are shown in the table be
 
 # Discussion
 Discussion Question 1: Are the measured currents in agreement with Kirchhoff’s Current Law?
-Yes! I1=I2/3+I4+I5
+Yes, the measured currents are in agreement with Kirchhoff's Current Law which states "the algebraic sum of the currents flowing into (or out of) a node in an electrical circuit at any instant of time is zero" in the lab manual. This statement can be represented by the following equation for our circuit: I1=I2/3+I4+I5. When plugged into this equation, the measured values are in agreement with this law.
 
 Discussion Question 2: Compare the measured values and the calculated values. Are these in agreement with Kirchhoff’s Voltage Law?
-Yes
+The measured values not in agreement with Kirchhoff's Voltage law which states, "the algebraic sum of the voltage drops across circuit elements around any closed loop in an electrical circuit at any instant of time is zero." This can be represented by the equation: Vin=V1+V2+V3+V4. When we plug in our measured values to this equation, we get that the sum of voltages is about equal to 15.3V, which does not equal the voltage into the circuit, meaning they are not in agreement with Kirchhoff's Voltage Law. Our calculated values based on the measured current add to 18 V which is a more significant discrepancy. This could be due to errors in our current values if we had any error in measurement with the DMM
+
 
 Discussion Question 3: Calculate the power delivered by the power supply and the power dissipated by every resistor. Is the power delivered by the power supply equal to the total power dissipated?
 
