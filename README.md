@@ -162,6 +162,7 @@ The power delivered can be calculated by the equation P=V^2/Req, or P=144V/6680&
 | R3          | 0.0004231 W           |
 | R4          | 0.0001958 W           |
 | R5          | 0.0055 W           |
+
 Total Calculated Power Dissipated= 0.0214W= 21.5mW. The power delivered by the power supply is about equal to the total power dissipated by the circuit. 
 
 Discussion Question 4: Using circuit analysis, calculate RTH, IN, and VTH, and compare them with the measured values. Are the calculated values in agreement with the measured values?
