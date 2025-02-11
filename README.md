@@ -133,10 +133,10 @@ The results obtained for step 3 of the Test Procedures are shown in the table be
 **Voltages Comparison Table**
 |Voltage|Measured Magnitude (V)|Calculated Voltages (V)|
 |----------|----------|----------|
-|V1|8.39|4.47|
-|V2|1.094|2.84|
-|V3|2.379|1.29|
-|V4|3.474|0.09|
+|V1|8.39|8.43|
+|V2|1.094|1.15|
+|V3|2.379|2.49|
+|V4|3.474|6.6|
 
 **Thevenin-Norton Equivalents Table**
 ||Measured Magnitude|Calculated Voltages|
