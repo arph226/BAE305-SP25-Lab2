@@ -168,6 +168,9 @@ Total Calculated Power Dissipated= 0.0214W= 21.5mW. The power delivered by the p
 
 Discussion Question 4: Using circuit analysis, calculate RTH, IN, and VTH, and compare them with the measured values. Are the calculated values in agreement with the measured values?
 
+As seen in the Thevenin-Norton Equivalents table above, the calculated values for RTH and IN are very similar. The Vth calculated value is 2V off from the measured value, which could be the result of tolerance variations in resistors, power supply variations or wiring losses from solder joints.
+
+
 # Conclusion
 
 In summary, this lab aimed to 
