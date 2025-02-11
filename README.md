@@ -115,7 +115,7 @@ The results obtained for step 2 of the Test Procedures are shown in the table be
 |R2|3.153|
 |R3|7.27|
 
-The results obtained for step 3 of the Test Procedures are shown in the table below. The set voltages were very close, if not exactly the same, as the measured voltages. Errors were likely due to DMM measurement since sometimes values would continue to change on the DMM after the probes were attached. This could lead to some measurement error.
+The results obtained for step 2 of the Test Procedures are shown in the table below. The set voltages were very close, if not exactly the same, as the measured voltages. Errors were likely due to DMM measurement since sometimes values would continue to change on the DMM after the probes were attached. This could lead to some measurement error.
 
 **Resistor Values Table: Parallel Circuit**
 |Resistor|Resistance (&Omega;)|
@@ -126,6 +126,7 @@ The results obtained for step 3 of the Test Procedures are shown in the table be
 |R4|217.5k|
 |R5|2.151k|
 
+The measured currents for each component of the parallel circuit in step 2 of the Test Procedures is shown in the table below. Current values agree with Kirchhoff's Current Law (KCL)
 **Measured Current Table: Parallel Circuit**
 |Current Label|Measured Current (mA)|
 |----------|----------|
@@ -133,6 +134,8 @@ The results obtained for step 3 of the Test Procedures are shown in the table be
 |I2/3|0.17|
 |I4|0.03|
 |I5/IL|1.60|
+
+The measured and calculated voltages for each component of the parallel circuit in step 2 of the Test Procedures is shown in the table below. Some discrepancies can be seen in voltage values, especially V4. This will be discussed in the discussion section of the lab.
 
 **Voltages Comparison Table**
 |Voltage|Measured Magnitude (V)|Calculated Voltages (V)|
@@ -142,8 +145,10 @@ The results obtained for step 3 of the Test Procedures are shown in the table be
 |V3|2.379|2.49|
 |V4|3.474|6.6|
 
+The measured and calculated Thevenin-Norton Equivalents for the parallel circuit in step 3 of the Test Procedures is shown in the table below. The measured and calculated magnitudes are close to one another, but there is a 2V discrepancy in the Thevenin voltage which could be due to tolerance variations in resistors or power supply variations.
+
 **Thevenin-Norton Equivalents Table**
-||Measured Magnitude|Calculated Voltages|
+||Measured Magnitude|Calculated Magnitude|
 |----------|----------|----------|
 |V(TH)|9.56V|7.53V|
 |I(N)|2.54 mA|1.92 mA|
@@ -154,7 +159,7 @@ Discussion Question 1: Are the measured currents in agreement with Kirchhoff’s
 Yes, the measured currents are in agreement with Kirchhoff's Current Law which states "the algebraic sum of the currents flowing into (or out of) a node in an electrical circuit at any instant of time is zero" in the lab manual. This statement can be represented by the following equation for our circuit: I1=I2/3+I4+I5. When plugged into this equation, the measured values are in agreement with this law.
 
 Discussion Question 2: Compare the measured values and the calculated values. Are these in agreement with Kirchhoff’s Voltage Law?
-The measured values not in agreement with Kirchhoff's Voltage law which states, "the algebraic sum of the voltage drops across circuit elements around any closed loop in an electrical circuit at any instant of time is zero." This can be represented by the equation: Vin=V1+V2+V3+V4. When we plug in our measured values to this equation, we get that the sum of voltages is about equal to 15.3V, which does not equal the voltage into the circuit, meaning they are not in agreement with Kirchhoff's Voltage Law. Our calculated values based on the measured current add to 18 V which is a more significant discrepancy. This could be due to errors in our current values if we had any error in measurement with the DMM
+The measured values not in agreement with Kirchhoff's Voltage law which states, "the algebraic sum of the voltage drops across circuit elements around any closed loop in an electrical circuit at any instant of time is zero." This can be represented by the equation: Vin=V1+V2+V3+V4. When we plug in our measured values to this equation, we get that the sum of voltages is about equal to 15.3V, which does not equal the voltage into the circuit, meaning they are not in agreement with Kirchhoff's Voltage Law. Our calculated values based on the measured current add to 18 V which is a more significant discrepancy. This could be due to discrepancies in current or voltage measurements or tolerances of circuit components.
 
 
 Discussion Question 3: Calculate the power delivered by the power supply and the power dissipated by every resistor. Is the power delivered by the power supply equal to the total power dissipated?
@@ -174,7 +179,6 @@ Discussion Question 4: Using circuit analysis, calculate RTH, IN, and VTH, and c
 
 As seen in the Thevenin-Norton Equivalents table above, the calculated values for RTH and IN are very similar. The Vth calculated value is 2V off from the measured value, which could be the result of tolerance variations in resistors, power supply variations or wiring losses from solder joints.
 
-
 # Conclusion
 
-In summary, this lab aimed to 
+In summary, this lab aimed to apply fundamental circuit laws and theorems such as Kirchhoff's Voltage and Current Laws (KVL and KCL), Thevenin, Norton, and superposition. To analyze basic electrical circuits using these laws and theorems we constructed a series circuit via soldering and a parallel circuit to compare theoretical predictions with measured values. We utilized the Fluke DMM for measurements and became familiar with the solder protoboard for constructing the circuit. By measuring a variety of values such as current, resistance, and voltage, and using simplification techniques such as Thevenin-Norton analysis, we gained hands on experience in analyzing circuits. We found that the data from our circuits were in agreement with KCL and the power dissipated was equivalent to the power delivered the power supply. However, there were slight discrepancies with KVL and Thevenin-Norton equivalencies, possibly due to measurement errors or component tolerances. Possible improvements, such as stable contact with DMM leads to avoid fluctuating readings and improving soldering technique to prevent innacuracies, can be made for better results in future experimentation.
