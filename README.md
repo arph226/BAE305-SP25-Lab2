@@ -34,7 +34,11 @@ Using the Fluke digital multimeter, we measured the actual resistance of the 1k�
 
 <img width="161" alt="image" src="https://github.com/user-attachments/assets/60e2f5c5-65c9-48bb-9d8f-2e74f1aaa390" />
 
-We used a soldering iron to apply solder and establish connections between the resistors and the copper pad on the underside of the board. Two wires were soldered to the circuit to allow for connection to the DC power supply. Once the circuit was completed, we connected the DCPS leads to the two wires and set the voltage to 10V. Using the Fluke digital multimeter, we measured the voltage drop across each resistor by clipping the leads to each end of the resistor with alligator clips. Finally, we measured the current by interrupting the circuit with the Fluke digital multimeter to confirm the validity of Kirchhoff’s Voltage Law and Kirchhoff’s Current Law.  
+We used a soldering iron to apply solder and establish connections between the resistors and the copper pad on the underside of the board. 
+
+![image](https://github.com/user-attachments/assets/7479e52d-d2fd-4928-bf8d-cbbd82384d60)
+
+Two wires were soldered to the circuit to allow for connection to the DC power supply. Once the circuit was completed, we connected the DCPS leads to the two wires and set the voltage to 10V. Using the Fluke digital multimeter, we measured the voltage drop across each resistor by clipping the leads to each end of the resistor with alligator clips. Finally, we measured the current by interrupting the circuit with the Fluke digital multimeter to confirm the validity of Kirchhoff’s Voltage Law and Kirchhoff’s Current Law.  
 
 ### Part 2: Parallel Circuit  
 Using the Fluke digital multimeter, we measured the actual resistance of the 4.7 kΩ, 6.8 kΩ, 15 kΩ, and 220 kΩ resistors following the same method used in Part 1. Next, we measured the voltage output of the DC power supply by connecting the power supply leads to the Fluke digital multimeter to ensure that the output voltage was within 0.1V of the stated value. We then constructed the parallel circuit below on a standard prototyping breadboard.
